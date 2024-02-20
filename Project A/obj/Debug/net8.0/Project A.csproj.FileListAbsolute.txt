@@ -12,3 +12,4 @@ C:\Users\Batch 9\Desktop\Batch 9\Project A\obj\Debug\net8.0\refint\Project A.dll
 C:\Users\Batch 9\Desktop\Batch 9\Project A\obj\Debug\net8.0\Project A.pdb
 c:\Users\Batch 9\Desktop\Batch 9\Project A\obj\Debug\net8.0\Project A.genruntimeconfig.cache
 c:\Users\Batch 9\Desktop\Batch 9\Project A\obj\Debug\net8.0\ref\Project A.dll
+C:\Users\Batch 9\Desktop\Batch 9\Project A\obj\Debug\net8.0\Project A.sourcelink.json

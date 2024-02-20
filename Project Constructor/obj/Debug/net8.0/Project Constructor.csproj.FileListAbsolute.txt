@@ -1,0 +1,15 @@
+C:\Users\Batch 9\Desktop\Batch 9\Project Constructor\obj\Debug\net8.0\Project Constructor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batch 9\Desktop\Batch 9\Project Constructor\obj\Debug\net8.0\Project Constructor.AssemblyInfoInputs.cache
+C:\Users\Batch 9\Desktop\Batch 9\Project Constructor\obj\Debug\net8.0\Project Constructor.AssemblyInfo.cs
+C:\Users\Batch 9\Desktop\Batch 9\Project Constructor\obj\Debug\net8.0\Project Constructor.csproj.CoreCompileInputs.cache
+C:\Users\Batch 9\Desktop\Batch 9\Project Constructor\obj\Debug\net8.0\Project Constructor.sourcelink.json
+C:\Users\Batch 9\Desktop\Batch 9\Project Constructor\bin\Debug\net8.0\Project Constructor.exe
+c:\Users\Batch 9\Desktop\Batch 9\Project Constructor\bin\Debug\net8.0\Project Constructor.deps.json
+c:\Users\Batch 9\Desktop\Batch 9\Project Constructor\bin\Debug\net8.0\Project Constructor.runtimeconfig.json
+C:\Users\Batch 9\Desktop\Batch 9\Project Constructor\bin\Debug\net8.0\Project Constructor.dll
+C:\Users\Batch 9\Desktop\Batch 9\Project Constructor\bin\Debug\net8.0\Project Constructor.pdb
+C:\Users\Batch 9\Desktop\Batch 9\Project Constructor\obj\Debug\net8.0\Project Constructor.dll
+C:\Users\Batch 9\Desktop\Batch 9\Project Constructor\obj\Debug\net8.0\refint\Project Constructor.dll
+C:\Users\Batch 9\Desktop\Batch 9\Project Constructor\obj\Debug\net8.0\Project Constructor.pdb
+c:\Users\Batch 9\Desktop\Batch 9\Project Constructor\obj\Debug\net8.0\Project Constructor.genruntimeconfig.cache
+c:\Users\Batch 9\Desktop\Batch 9\Project Constructor\obj\Debug\net8.0\ref\Project Constructor.dll

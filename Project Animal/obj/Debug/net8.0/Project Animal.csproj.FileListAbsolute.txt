@@ -1,0 +1,15 @@
+C:\Users\Batch 9\Desktop\Batch 9\Project Animal\bin\Debug\net8.0\Project Animal.exe
+c:\Users\Batch 9\Desktop\Batch 9\Project Animal\bin\Debug\net8.0\Project Animal.deps.json
+c:\Users\Batch 9\Desktop\Batch 9\Project Animal\bin\Debug\net8.0\Project Animal.runtimeconfig.json
+C:\Users\Batch 9\Desktop\Batch 9\Project Animal\bin\Debug\net8.0\Project Animal.dll
+C:\Users\Batch 9\Desktop\Batch 9\Project Animal\bin\Debug\net8.0\Project Animal.pdb
+C:\Users\Batch 9\Desktop\Batch 9\Project Animal\obj\Debug\net8.0\Project Animal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batch 9\Desktop\Batch 9\Project Animal\obj\Debug\net8.0\Project Animal.AssemblyInfoInputs.cache
+C:\Users\Batch 9\Desktop\Batch 9\Project Animal\obj\Debug\net8.0\Project Animal.AssemblyInfo.cs
+C:\Users\Batch 9\Desktop\Batch 9\Project Animal\obj\Debug\net8.0\Project Animal.csproj.CoreCompileInputs.cache
+C:\Users\Batch 9\Desktop\Batch 9\Project Animal\obj\Debug\net8.0\Project Animal.sourcelink.json
+C:\Users\Batch 9\Desktop\Batch 9\Project Animal\obj\Debug\net8.0\Project Animal.dll
+C:\Users\Batch 9\Desktop\Batch 9\Project Animal\obj\Debug\net8.0\refint\Project Animal.dll
+C:\Users\Batch 9\Desktop\Batch 9\Project Animal\obj\Debug\net8.0\Project Animal.pdb
+c:\Users\Batch 9\Desktop\Batch 9\Project Animal\obj\Debug\net8.0\Project Animal.genruntimeconfig.cache
+c:\Users\Batch 9\Desktop\Batch 9\Project Animal\obj\Debug\net8.0\ref\Project Animal.dll

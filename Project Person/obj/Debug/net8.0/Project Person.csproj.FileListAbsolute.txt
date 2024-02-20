@@ -1,0 +1,15 @@
+C:\Users\Batch 9\Desktop\Batch 9\Project Person\bin\Debug\net8.0\Project Person.exe
+c:\Users\Batch 9\Desktop\Batch 9\Project Person\bin\Debug\net8.0\Project Person.deps.json
+c:\Users\Batch 9\Desktop\Batch 9\Project Person\bin\Debug\net8.0\Project Person.runtimeconfig.json
+C:\Users\Batch 9\Desktop\Batch 9\Project Person\bin\Debug\net8.0\Project Person.dll
+C:\Users\Batch 9\Desktop\Batch 9\Project Person\bin\Debug\net8.0\Project Person.pdb
+C:\Users\Batch 9\Desktop\Batch 9\Project Person\obj\Debug\net8.0\Project Person.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batch 9\Desktop\Batch 9\Project Person\obj\Debug\net8.0\Project Person.AssemblyInfoInputs.cache
+C:\Users\Batch 9\Desktop\Batch 9\Project Person\obj\Debug\net8.0\Project Person.AssemblyInfo.cs
+C:\Users\Batch 9\Desktop\Batch 9\Project Person\obj\Debug\net8.0\Project Person.csproj.CoreCompileInputs.cache
+C:\Users\Batch 9\Desktop\Batch 9\Project Person\obj\Debug\net8.0\Project Person.sourcelink.json
+C:\Users\Batch 9\Desktop\Batch 9\Project Person\obj\Debug\net8.0\Project Person.dll
+C:\Users\Batch 9\Desktop\Batch 9\Project Person\obj\Debug\net8.0\refint\Project Person.dll
+C:\Users\Batch 9\Desktop\Batch 9\Project Person\obj\Debug\net8.0\Project Person.pdb
+c:\Users\Batch 9\Desktop\Batch 9\Project Person\obj\Debug\net8.0\Project Person.genruntimeconfig.cache
+c:\Users\Batch 9\Desktop\Batch 9\Project Person\obj\Debug\net8.0\ref\Project Person.dll
