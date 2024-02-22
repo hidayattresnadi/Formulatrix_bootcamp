@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\Project Animal.csproj": {}
+    "C:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\Project Animal.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\Project Animal.csproj": {
+    "C:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\Project Animal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\Project Animal.csproj",
+        "projectUniqueName": "C:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\Project Animal.csproj",
         "projectName": "Project Animal",
-        "projectPath": "c:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\Project Animal.csproj",
+        "projectPath": "C:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\Project Animal.csproj",
         "packagesPath": "C:\\Users\\Batch 9\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\obj\\",
+        "outputPath": "C:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
