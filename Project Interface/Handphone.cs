@@ -5,7 +5,12 @@ public interface IHandphone {
     void Photo();
 }
 
-public interface IIphone : IHandphone;
+public interface IIphone : IHandphone {
+    // void AirDrop();
+}
+public interface ISamsung : IHandphone {
+    void SamsungShare();
+}
 
 class IPhone11 : IIphone {
     public void Wifi(){
