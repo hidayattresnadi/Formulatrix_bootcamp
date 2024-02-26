@@ -3,6 +3,10 @@ class Result
 {
     public void InputUser(int n)
     {
+        if (n < 0) {
+            Console.WriteLine("Cannot accept negative numbers");
+            return;
+        }
         for (int i = 0; i <= n; i++)
         {
             if (i > 0)

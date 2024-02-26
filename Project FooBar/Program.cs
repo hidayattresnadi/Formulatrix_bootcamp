@@ -6,6 +6,6 @@ class Program
     static void Main()
     {
         Result hasil = new();
-        hasil.InputUser(15);
+        hasil.InputUser(-1);
     }
 }
