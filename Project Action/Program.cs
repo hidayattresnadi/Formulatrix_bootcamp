@@ -10,7 +10,7 @@ class Program {
         Friend teman = new();
         MyDelegates delegator = pemain.Register;
 
-        teman.myFriend += pemain.oi;
+        teman.myFriend += pemain.Greet;
 
         // cara Action, tetapi action harus void return ga bisa ada return typenya
         Action<string> delegators = pemain.Register;
@@ -63,5 +63,5 @@ class Player {
 }
 
 class Friend {
-    public event Action myFriend;
+    public event Action<string> myFriend;
 }

@@ -6,6 +6,8 @@ class Program
     static void Main()
     {
         Result hasil = new();
-        hasil.InputUser(-1);
+        string[] dayat = hasil.InputUser(15);
+        string dayat1 = string.Join(",",dayat);
+        Console.WriteLine(dayat1);
     }
 }
