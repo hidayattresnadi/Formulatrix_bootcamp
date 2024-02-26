@@ -6,8 +6,9 @@ class Program
     static void Main()
     {
         Result hasil = new();
-        string[] dayat = hasil.InputUser(15);
-        string dayat1 = string.Join(",",dayat);
+        Dictionary<int,string> dayat = hasil.InputUser(15);
+        string dayat1 = string.Join(",",dayat.Values);
+        // string dayat1 = string.Join(",",dayat);
         Console.WriteLine(dayat1);
     }
 }
