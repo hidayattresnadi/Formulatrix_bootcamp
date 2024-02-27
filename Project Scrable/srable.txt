@@ -1,0 +1,71 @@
+class GameController:
+A. punya data dictionary nyimpen key player dengan value point
+B. punya data dictionary nyimpan key player dengan spended tilenya, jumlahnya berapa
+C. punya data dictionary nyimpen key player dengan skip turnnya dah berapa
+D. punya data dictionary nyimpen key player dengan list of tilenya mereka
+E. 
+
+
+classDiagram
+    GameController -- Player
+    GameController -- Board
+    GameController -- Tile
+    Player -- Word
+    GameController -- Word
+    GameController -- BagTile
+
+
+    class GameController{
+       -Dictionary<Player, int point> points
+       -Dictionary<Player,int spentTile> spendedTile
+       -Dictionary<Player,int skip> skipTurns
+       -Dictionary<Player,  List~Tile~ playerTile> playersTile
+       -Board
+       -Word
+       -BagTile
+       -int players
+       +setGameTurn(Player) 
+       +setTiles(Player,List~Tile~ playerTile) : string word
+       +setPoint(int pointValidWord) 
+       +giveTile()  
+       +setTime(int time) : int
+       +determineWinner(Dictionary<Player,int point>,Dictionary<Player,List~Tile~ playerTile>) : Dictionary<Player,int point>
+    }
+    class Player {
+        +string name
+        +int point
+        +int turn
+        +int countTile
+        +int time
+        + List<Tile> Tile
+        +submitWord()
+        +skipTurn()
+        +withdraw()
+        +waitingTime(int time)
+        +swapTile(Tile tile) : Tile
+        +setTile(Tile emptyTile) : Tile
+    }
+    class Board {
+        + int square
+        + Array string bonusPoint
+        + List~Tile~ boardTile
+        + checkPositionTile() : bool
+        + checkBoardWord(List~Tile~ boardTilePlayer) :bool
+        + calculateWordPoint(List~Tile~ boardTilePlayer) : int 
+        + generateBoard() : Board
+        + setTilesFromPlayer(List~Tile~ boardTile) 
+    }
+    class Tile {
+        + int point
+        + char letter
+    }
+    class Word {
+        +string Word
+        +checkValidWord(string word) : bool
+    }
+    class BagTile{
+        +Tile listOfTiles
+        +int sumOfTile
+        giveTilePlayer(List~Tile~ playerTile) :List~Tile~ playerCompleteTile
+        giveTileBoard(List~Tile~ boardTile) : List~Tile~ boardTile
+    }

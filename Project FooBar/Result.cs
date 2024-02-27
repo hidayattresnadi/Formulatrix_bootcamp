@@ -1,13 +1,14 @@
 namespace TheAnswer;
-class Result
+public class Result
 {
-    public Dictionary<int,string> InputUser(int n)
+    public string InputUser(int n)
     {
         // semisal pengen array tapi pengen nampung tipe data beda-beda
+        // object[] numbers = new object[];
         string[] numbers = new string[n+1];
         Dictionary<int,string> dict = new();
         if (n < 0) {
-            Console.WriteLine("Cannot accept negative numbers");
+            return "Cannot accept negative numbers";
             // return;
         }
         for (int i = 0; i <= n; i++)
@@ -52,6 +53,7 @@ class Result
                 // Console.WriteLine(i);
             }
         }
-        return dict;
+        string dayat1 = string.Join(",",dict.Values);
+        return dayat1;
     }
 }
