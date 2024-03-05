@@ -6,8 +6,12 @@ class Program
     static void Main()
     {
         Result hasil = new();
-        string dayat = hasil.InputUser(15);
-        // string dayat1 = string.Join(",",dayat);
-        Console.WriteLine(dayat);
+        Dictionary<int,string> dict = new();
+        dict.Add(3,"foo");
+        dict.Add(5,"bar");
+        dict.Add(7,"buzz");
+
+        string result = hasil.MakeSentence(21,dict);
+        Console.WriteLine(result);
     }
 }

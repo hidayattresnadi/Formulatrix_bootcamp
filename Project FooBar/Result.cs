@@ -1,59 +1,51 @@
 namespace TheAnswer;
 public class Result
 {
-    public string InputUser(int n)
+    public string MakeSentence(int n, Dictionary<int, string> dictionary)
     {
-        // semisal pengen array tapi pengen nampung tipe data beda-beda
-        // object[] numbers = new object[];
-        string[] numbers = new string[n+1];
-        Dictionary<int,string> dict = new();
-        if (n < 0) {
+        Dictionary<int, string> dict = new();
+        if (n < 0)
+        {
             return "Cannot accept negative numbers";
-            // return;
         }
         for (int i = 0; i <= n; i++)
         {
-            // numbers[i]=i;
-            // if(i==5){
-            //     numbers[i]="foo";
-            // }
-            // Console.WriteLine(numbers[i]);
-            // Console.WriteLine("========");
             if (i > 0)
             {
-                if (i % 5 == 0 && i % 3 == 0)
+                int all = 0;
+                string word = "";
+                foreach (var item in dictionary)
                 {
-                    dict.Add(i,"foobar");
-                    numbers[i]="foobar";
-                    // Console.WriteLine("foobar");
+                    if (all == 0)
+                    {
+                        if (i % item.Key == 0)
+                        {
+                            dict.Add(i, item.Value);
+                            word += item.Value;
+                            all++;
+                        }
+                    }
+                    else
+                    {
+                        if (i % item.Key == 0)
+                        {
+                            word += item.Value;
+                            dict[i] = word;
+                        }
+
+                    }
                 }
-                else if (i % 3 == 0)
+                if (all == 0)
                 {
-                    dict.Add(i,"foo");
-                    numbers[i]="foo";
-                    // Console.WriteLine("foo");
-                }
-                else if (i % 5 == 0)
-                {
-                    dict.Add(i,"bar");
-                    numbers[i]="bar";
-                    // Console.WriteLine("bar");
-                }
-                else
-                {
-                    dict.Add(i,i.ToString());
-                    numbers[i]=i.ToString();
-                    // Console.WriteLine(i);
+                    dict.Add(i, i.ToString());
                 }
             }
             else
             {
-                dict.Add(i,i.ToString());
-                numbers[i]=i.ToString();
-                // Console.WriteLine(i);
+                dict.Add(i, i.ToString());
             }
         }
-        string dayat1 = string.Join(",",dict.Values);
-        return dayat1;
+        string sentence = string.Join(",", dict.Values);
+        return sentence;
     }
 }

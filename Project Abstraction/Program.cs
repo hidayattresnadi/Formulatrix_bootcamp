@@ -4,6 +4,11 @@ class Program {
         Cat kitten = new();
         kitten.Sound();
 
+        Kucing dayat = new();
+        dayat.Height1=12;
+        Console.WriteLine(dayat.Height1);
+        Console.WriteLine("akwoakwoak");
+
         MonopolyGameController monopoly = new(20);
         monopoly.AddCard(new BirthdayCard(1,"birhtday","yellow"));
         monopoly.AddCard(new ElectricPaid(2,"electric","green"));

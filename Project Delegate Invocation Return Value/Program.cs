@@ -1,6 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Net.Http.Headers;
+public delegate void delegateBaru();
 
+public enum Negara {
+	Jepang=1,
+	Amerika,
+	China
+}
 public delegate int MyDelegate(int a, int b);
 class Program 
 {
@@ -11,6 +17,17 @@ class Program
 		int b = 2;
 
 		Calculator calculator = new();
+		delegateBaru delegateDayat = calculator.wkwkwk;
+		delegateDayat.Invoke();
+
+		Negara saya = Negara.Jepang;
+		int urutan = (int)saya;
+		Console.WriteLine(urutan);
+
+		int pilihNegara = 3;
+		Negara apaYa = (Negara)pilihNegara;
+		Console.WriteLine(apaYa);
+
 
 		MyDelegate del = calculator.Add;
 		del += calculator.Mul;
@@ -65,5 +82,8 @@ class Calculator
 	public int Div(int a, int b) 
 	{
 		return a / b;
+	}
+	public void wkwkwk(){
+		Console.WriteLine("testing aja");
 	}
 }

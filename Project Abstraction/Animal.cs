@@ -11,3 +11,23 @@ class Cat : Animal {
     }
 
 }
+
+abstract class Hewan {
+    private int height;
+
+    public int Height1 {
+        get{
+            return height;
+        }
+        set{
+            height=value;
+        }
+    }
+    public abstract void walk();
+}
+
+class Kucing : Hewan {
+    public override void walk(){
+        Console.WriteLine("jalan-jalan");
+    }
+}

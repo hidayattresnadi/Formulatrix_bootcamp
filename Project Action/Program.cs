@@ -5,6 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 public delegate void MyDelegates(string s); 
 class Program {
     static void Main(){
+        
         // cara lama
         Player pemain = new();
         Friend teman = new();
@@ -21,7 +22,7 @@ class Program {
 
         Func<int, int, int,int> addition = pemain.Buy;
 
-        // di sebelah delegaor ini ada tanda tanya, naah ini tuh maksudnya kaya ternery, jadi semisal null parameternya
+        // di sebelah delegator ini ada tanda tanya, naah ini tuh maksudnya kaya ternery, jadi semisal null parameternya
         // functionnya ga akan jalan
 
         delegator?.Invoke("dayat");

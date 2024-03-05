@@ -33,6 +33,14 @@ class Program {
         int gameToos = (int)checkTest;
         Console.WriteLine(gameToos);
 
+        Hewan sapi = Hewan.Sapi;
+        int nilaiSapi = (int)sapi;
+        Console.WriteLine(nilaiSapi);
+
+        int nomorHewan = 3;
+        Hewan namaHewan =(Hewan)nomorHewan;
+        Console.WriteLine(namaHewan);
+
 
 
 		// Array result = Enum.GetValues(typeof(StatusCode));
@@ -51,3 +59,13 @@ class Program {
         }
     }
 }
+
+
+public enum Hewan{
+    Kambing =1,
+    Ayam,
+    Sapi,
+    Kelinci,
+    Kuda
+}
+
