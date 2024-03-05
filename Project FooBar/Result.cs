@@ -12,17 +12,17 @@ public class Result
         {
             if (i > 0)
             {
-                int all = 0;
+                int dividedNumber = 0;
                 string word = "";
                 foreach (var item in dictionary)
                 {
-                    if (all == 0)
+                    if (dividedNumber == 0)
                     {
                         if (i % item.Key == 0)
                         {
                             dict.Add(i, item.Value);
                             word += item.Value;
-                            all++;
+                            dividedNumber++;
                         }
                     }
                     else
@@ -35,7 +35,7 @@ public class Result
 
                     }
                 }
-                if (all == 0)
+                if (dividedNumber == 0)
                 {
                     dict.Add(i, i.ToString());
                 }
