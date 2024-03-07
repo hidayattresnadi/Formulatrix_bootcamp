@@ -75,6 +75,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Chess", "Project Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Debugger", "Project Debugger\Project Debugger.csproj", "{56F54CA5-9616-48C7-AB2A-9B94BA3B057E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Multi Threading", "Project Multi Threading\Project Multi Threading.csproj", "{1BCB67C0-734F-4594-9173-98A2C8C9F5AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Task", "Project Task\Project Task.csproj", "{C5D087D1-A50E-4D3C-B241-2B0F2BE2A6ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +217,14 @@ Global
 		{56F54CA5-9616-48C7-AB2A-9B94BA3B057E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56F54CA5-9616-48C7-AB2A-9B94BA3B057E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56F54CA5-9616-48C7-AB2A-9B94BA3B057E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BCB67C0-734F-4594-9173-98A2C8C9F5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCB67C0-734F-4594-9173-98A2C8C9F5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCB67C0-734F-4594-9173-98A2C8C9F5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCB67C0-734F-4594-9173-98A2C8C9F5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D087D1-A50E-4D3C-B241-2B0F2BE2A6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D087D1-A50E-4D3C-B241-2B0F2BE2A6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D087D1-A50E-4D3C-B241-2B0F2BE2A6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D087D1-A50E-4D3C-B241-2B0F2BE2A6ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
