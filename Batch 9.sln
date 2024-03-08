@@ -79,6 +79,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Multi Threading", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Task", "Project Task\Project Task.csproj", "{C5D087D1-A50E-4D3C-B241-2B0F2BE2A6ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Async await vs thread vs task", "Project Async await vs thread vs task\Project Async await vs thread vs task.csproj", "{5998564F-E446-4AF3-8E3D-C5908EDAD82E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project CancellationToken", "Project CancellationToken\Project CancellationToken.csproj", "{64D874FB-B639-4213-BF38-E204E398EA84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +229,14 @@ Global
 		{C5D087D1-A50E-4D3C-B241-2B0F2BE2A6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5D087D1-A50E-4D3C-B241-2B0F2BE2A6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5D087D1-A50E-4D3C-B241-2B0F2BE2A6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5998564F-E446-4AF3-8E3D-C5908EDAD82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5998564F-E446-4AF3-8E3D-C5908EDAD82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5998564F-E446-4AF3-8E3D-C5908EDAD82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5998564F-E446-4AF3-8E3D-C5908EDAD82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D874FB-B639-4213-BF38-E204E398EA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D874FB-B639-4213-BF38-E204E398EA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D874FB-B639-4213-BF38-E204E398EA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D874FB-B639-4213-BF38-E204E398EA84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
