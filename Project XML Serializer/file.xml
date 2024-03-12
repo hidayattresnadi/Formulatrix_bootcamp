@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <City>
+    <nation>Indonesia</nation>
+    <price>25000</price>
+    <name>Jakarta</name>
+  </City>
+  <City>
+    <nation>Singapore</nation>
+    <price>30000</price>
+    <name>Singapore</name>
+  </City>
+  <City>
+    <nation>Japan</nation>
+    <price>50000</price>
+    <name>Tokyo</name>
+  </City>
+</ArrayOfCity>
