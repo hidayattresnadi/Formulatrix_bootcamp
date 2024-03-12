@@ -1,11 +1,12 @@
-Hello, WHello, World!
 Hello, World!
+This is a sample text.
+Using StreamWriter for writing to a file.
 Hello, World!
+This is a sample text.
+Using StreamWriter for writing to a file.
 Hello, World!
+This is a sample text.
+Using StreamWriter for writing to a file.
 Hello, World!
-Hello, World!
-Hello, World!
-Hello, World!
-Hello, World!
-Hello, World!
-Hello, World!
+This is a sample text.
+Using StreamWriter for writing to a file.
