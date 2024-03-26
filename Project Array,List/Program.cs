@@ -5,8 +5,9 @@ class Program
 {
     static void Main()
     {
-         // Tipe data  dan contoh
+        // Tipe data  dan contoh
         // Array biasanya digunakan untuk menyimpan satu tipe data saja
+        // fix size 
         int[] namaArray = new int[4];
         int[] namaBebas = { 1, 2, 3, 4 };
         int[] namaDayat = [1, 2, 3, 4];

@@ -9,6 +9,29 @@ public enum StatusCode : int {
 	OK = 200
 }
 
+public enum Tile {
+        D = 2,
+        G = 2,
+        B = 3,
+        C = 3,
+        M = 3
+}
+
+class TileScrabble {
+    public int idTile;
+    public string huruf;
+
+    public Tile1 tile;
+
+    public enum Tile1 {
+        D = 2,
+        G = 2,
+        B = 3,
+        C = 3,
+        M = 3
+}
+}
+
 public enum Game {
 
     StarRail =1,
@@ -19,9 +42,21 @@ public enum Game {
 }
 class Program {
 	static void Main() {
+        TileScrabble newBiji = new();
+        newBiji.idTile=1;
+        newBiji.tile=TileScrabble.Tile1.D;
+        newBiji.huruf=newBiji.tile.ToString();
+        Console.WriteLine(newBiji.huruf);
+        Console.WriteLine(newBiji.tile);
+        // TileScrabble.Tile1 newBiji2 = TileScrabble.Tile1.M;
+        
 		int x = 404;
 		StatusCode code = (StatusCode)x;
 		Console.WriteLine(code);
+
+        // Tile huruf = Tile.D;
+        int angka = (int)Tile.C;
+        Console.WriteLine(angka);
 
         CheckGame(Game.Genshin);
 
@@ -32,6 +67,8 @@ class Program {
         Game checkTest = Game.Genshin;
         int gameToos = (int)checkTest;
         Console.WriteLine(gameToos);
+
+
 
 
 

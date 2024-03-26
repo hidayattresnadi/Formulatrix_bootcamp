@@ -1,0 +1,14 @@
+@model Product
+<h1>Update Product</h1>
+
+<form method="post">
+    <div class="form-group">
+        <input asp-for="ProductId" type="hidden" />
+        <label asp-for="ProductName">Product Name</label>
+        <input asp-for="ProductName" type="text" class="form-control" placeholder="Enter product">
+        <label asp-for="CategoryId">CategoryId</label>
+        <input asp-for="CategoryId" type="number" class="form-control" placeholder="Enter category id">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a asp-action="Index" class="btn btn-info">Cancel</a>
+</form>

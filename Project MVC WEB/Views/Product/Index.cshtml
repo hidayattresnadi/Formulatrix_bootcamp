@@ -1,0 +1,47 @@
+@model IEnumerable<Product>
+<h1>Product</h1>
+<a asp-action="Create" class="btn btn-primary">Create Product</a>
+
+<table class="table table-bordered table-striped text-center">
+    <thead>
+        <tr>
+            <th>
+                ProductID
+            </th>
+            <th>
+                Product Name
+            </th>
+            <th>
+                CategoryID
+            </th>
+            <th>
+                Category Name
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var entity in Model) {
+            <tr>
+            <td>
+               @entity.ProductId
+            </td>
+            <td>
+                @entity.ProductName
+            </td>
+            <td>
+                @entity.CategoryId
+            </td>
+            <td>
+                @entity.Category.CategoryName
+            </td>
+            <td>
+                <a asp-action="Update" asp-route-id="@entity.ProductId" class="btn btn-warning">Update</a>
+                <a asp-action="Delete" asp-route-id="@entity.ProductId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -8,30 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Batch 9\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Hidayat tresnadi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\Project Animal.csproj",
+      "projectUniqueName": "C:\\Users\\Hidayat tresnadi\\OneDrive\\Desktop\\dayat\\Formulatrix_bootcamp\\Project Animal\\Project Animal.csproj",
       "projectName": "Project Animal",
-      "projectPath": "C:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\Project Animal.csproj",
-      "packagesPath": "C:\\Users\\Batch 9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Batch 9\\Desktop\\Batch 9\\Project Animal\\obj\\",
+      "projectPath": "C:\\Users\\Hidayat tresnadi\\OneDrive\\Desktop\\dayat\\Formulatrix_bootcamp\\Project Animal\\Project Animal.csproj",
+      "packagesPath": "C:\\Users\\Hidayat tresnadi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hidayat tresnadi\\OneDrive\\Desktop\\dayat\\Formulatrix_bootcamp\\Project Animal\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Batch 9\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Hidayat tresnadi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -44,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -70,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
